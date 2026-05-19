@@ -415,14 +415,5 @@ ALTER TABLE ONLY public.star
 --
 psql --username=freecodecamp --dbname=postgres
 
-INSERT INTO galaxy (name, mass, has_black_hole, radius_km, description)
-VALUES
-('Milky Way', 1500000000000, TRUE, 52850, 'Our home galaxy'),
-('Andromeda', 1200000000000, TRUE, 110000, 'Nearest major galaxy'),
-('Triangulum', 50000000000, FALSE, 30000, 'Small spiral galaxy'),
-('Whirlpool', 160000000000, TRUE, 43000, 'Famous interacting galaxy'),
-('Sombrero', 800000000000, TRUE, 50000, 'Bright central bulge galaxy'),
-('Cartwheel', 290000000000, FALSE, 75000, 'Ring-shaped galaxy');
 
-SELECT * FROM galaxy;
 
